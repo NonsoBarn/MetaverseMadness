@@ -1,4 +1,10 @@
-export const exploreWorlds = [
+export interface ExploreWorldsType {
+  id: string;
+  imgUrl: string;
+  title: string;
+}
+
+export const exploreWorlds: Array<ExploreWorldsType> = [
   {
     id: "world-1",
     imgUrl: "/planet-01.png",
