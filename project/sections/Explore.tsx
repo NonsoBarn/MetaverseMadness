@@ -4,7 +4,7 @@ import { TypingText, ExploreCard, TitleText } from "@/components/";
 import styles from "../styles/index";
 import { staggerContainer } from "@/utils/motion/index";
 import { ExploreWorldsType, exploreWorlds } from "@/constants";
-import World from "./World";
+// import World from "./World";
 
 type Props = {};
 
