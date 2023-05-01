@@ -3,11 +3,11 @@ import styles from "../styles/index";
 import { fadeIn } from "@/utils/motion/index";
 
 type Props = {
-  id: "string";
-  imgUrl: "string";
-  title: "string";
-  index: any;
-  active: "string";
+  id: string;
+  imgUrl: string;
+  title: string;
+  index: number;
+  active: string;
   handleClick: any;
 };
 

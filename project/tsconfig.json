@@ -24,7 +24,8 @@
     "**/*.tsx",
     "components/index.js",
     "styles/index.ts",
-    "utils/motion.js"
+    "utils/motion.js",
+    "utils/motion/index.js"
   ],
   "exclude": ["node_modules"]
 }

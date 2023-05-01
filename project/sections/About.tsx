@@ -5,12 +5,12 @@ import { fadeIn, staggerContainer } from "@/utils/motion/index";
 
 type Props = {};
 
-function About({}: Props) {
+const About = ({}: Props) => {
   return (
     <section className={`${styles.paddings} relative z-10`}>
       <div className="gradiant-02 z-10" />
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
@@ -45,6 +45,6 @@ function About({}: Props) {
       </motion.div>
     </section>
   );
-}
+};
 
 export default About;

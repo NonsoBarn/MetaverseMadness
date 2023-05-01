@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}

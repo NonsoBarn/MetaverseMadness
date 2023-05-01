@@ -2,7 +2,7 @@ import styles from "@/styles";
 import React from "react";
 
 type Props = {
-  number: string;
+  number: number;
   text: string;
 };
 
