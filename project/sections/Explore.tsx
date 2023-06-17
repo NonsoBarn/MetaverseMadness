@@ -21,12 +21,8 @@ function Explore({}: Props) {
       >
         <TypingText title="| The World" textStyles="text-center" />
         <TitleText
-          title={
-            <>
-              Choose the world you want
-              <br className="md:block hidden" /> to explore
-            </>
-          }
+          title="Choose the world you want
+              to explore"
           textStyles="text-center"
         />
 
