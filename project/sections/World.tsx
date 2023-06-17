@@ -18,12 +18,8 @@ const World = (props: Props) => {
       >
         <TitleText title="| People on the world" textStyles="text-center" />
         <TitleText
-          title={
-            <>
-              Track friends around you and invite them to play together in the
-              same world
-            </>
-          }
+          title=" Track friends around you and invite them to play together in the
+              same world"
           textStyles="text-center"
         />
 
