@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { textContainer, textVariant2 } from "@/utils/motion/index";
 
 export interface Props {
-  title: any;
+  title: string;
   textStyles: any;
 }
 

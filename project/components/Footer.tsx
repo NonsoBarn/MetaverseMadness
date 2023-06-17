@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { socials } from "@/constants";
 import { footerVariants } from "@/utils/motion";
+import Image from "next/image";
 import styles from "@/styles";
 
 type Props = {};
@@ -23,9 +24,11 @@ function Footer({}: Props) {
             type="button"
             className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
           >
-            <img
+            <Image
               src="/headset.svg"
               alt="headset"
+              width={0}
+              height={0}
               className="w-[24px] h-[24px] object-contain"
             />
             <span className="font-normal text-[16px] text-white uppercase">
@@ -45,10 +48,12 @@ function Footer({}: Props) {
             </p>
             <div className="flex gap-4">
               {socials.map((social) => (
-                <img
+                <Image
                   key={social.name}
                   src={social.url}
                   alt={social.name}
+                  width={0}
+                  height={0}
                   className="w-[24px] h-[24px] object-contain cursor-pointer"
                 />
               ))}
